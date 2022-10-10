@@ -198,3 +198,6 @@ mod list;
 mod monitor;
 mod udev;
 mod util;
+
+#[cfg(feature = "send")]
+mod send;
